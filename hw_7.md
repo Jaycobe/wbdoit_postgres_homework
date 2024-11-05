@@ -12,7 +12,7 @@
 
 3. Функция выбора трети года выглядит следующим образом: 
 
-    ``
+    
     create function sales_get_yearly_third(_sale_id int) returns integer as
     $$
     declare
@@ -28,7 +28,7 @@
     end;
     $$
     language plpgsql;
-    ``
+
 4. При помощи следующего запроса применим функцию ко всем записям в таблице
 
    `select sales.sale_dt, sales_get_yearly_third(_sale_id := sales.sale_id) from sales;`
