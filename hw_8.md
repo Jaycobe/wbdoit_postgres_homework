@@ -1,0 +1,1 @@
+![img.png](assets/img/hw_8_1.png)
